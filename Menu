@@ -42,8 +42,6 @@ def create_music_file():
 	)
 	bass = (131, 131, 196, 196, 175, 175, 131, 131, 196, 196, 165, 165, 147, 147, 131, 131)
 	tick_duration = 0.25
-	def round(arg1):
-		...
 
 	frame_count = round(sample_rate * len(melody) * tick_duration)
 	samples = array.array("h")
